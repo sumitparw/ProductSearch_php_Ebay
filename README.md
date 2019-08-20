@@ -1,20 +1,23 @@
-# Event Search PHP
+# Product Search PHP
 
 The project is live and deployed on Google Cloud Platform. It can be accessed at the link below: 
-http://csci-hw6-1538873299145.appspot.com/
+http://helloqwerty.appspot.com/main.php
+
+The Solution Video can be seen on:
+https://www.youtube.com/watch?v=VtVYSgOwHbI&feature=youtu.be
 
 ## Technologies used
-PHP, Javascript, HTML, CSS, JSON Parsing, APIs
+PHP, Javascript, HTML, CSS, JSON Parsing, APIs, GCP App Engine
 
 ## APIs used
-Ticketmaster API, IP API, Google API
+eBay APIs(General,SimilarItems,Product seller message,etc.), IP API, Google API
 
 ## Overview
-Event search allows users to search for various different sports, music, film etc events based on current location or any other location entered by the user. Users can know more about the venue of the event, how to get there via driving/walking/biking, the seating map of the venue. They can also book tickets using links which lead to Ticketmaster website.
-
+Product search allows users to search for various Products that are availble on eBay based on current location or any other location entered by the user. Users can know more about the product, similar items, seller message.
 ## Features
-1. Users can search events from current location which is caught using ipapi or a custom location which is geocoded using Google api
-2. Users can directly find the best route to the venue by either of the three modes - Walking/Biking/Driving
-3. A pop up google map is also made available to the user directly at the location of the click.
-4. Users can access venue photos.
+1. Users can search Products from current location which is caught using ipapi or a custom location using Google api
+2. Users can click on any of the tabulated result and a product decription table can be seen which has also the basic info abut that particular product like price, seller info, return policy, title, location and few rows of product description which is dyanmic i.e. depends on the product.
+3. By clicking on "Click to see the seller message", User can see the seller message in a Iframe.
+4. UBy clicking on "Click to see the similar Items", User can see the similar items and each are clickable and leads to product info of that product.
 5. Clear button resets the application.
+6. User can also click on enable nearby search and using distance from current zip or other zip the product is searched.
